@@ -31,7 +31,7 @@ const projects: Project[] = [
     description:
       "Built a modular React frontend with role-based dashboards (Admin, Supervisor, Student) to streamline academic submission workflows. Developed scalable Express.js APIs with optimized MySQL schemas for secure authentication and supervision management. Containerized the full stack using Docker for production-ready deployment.",
     image:
-      "/Post Grad.jpeg",
+      "/my-portfolio/Post%20Grad.jpeg",
     tags: ["React", "Role-Based Dashboards", "Express.js", "MySQL", "Docker"],
     year: "2025",
     status: "completed",

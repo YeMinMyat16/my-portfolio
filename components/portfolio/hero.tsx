@@ -4,17 +4,17 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <section 
+    <section
       id="about"
       className="relative flex min-h-screen items-center justify-center overflow-hidden px-4 pt-16"
     >
       {/* Background gradient orbs */}
-      <div 
+      <div
         className="pointer-events-none absolute -top-40 -left-40 h-96 w-96 rounded-full opacity-20 blur-3xl"
         style={{ background: "radial-gradient(circle, oklch(0.75 0.15 180) 0%, transparent 70%)" }}
         aria-hidden="true"
       />
-      <div 
+      <div
         className="pointer-events-none absolute -right-40 -bottom-40 h-96 w-96 rounded-full opacity-15 blur-3xl"
         style={{ background: "radial-gradient(circle, oklch(0.65 0.15 280) 0%, transparent 70%)" }}
         aria-hidden="true"
@@ -25,7 +25,7 @@ export function Hero() {
         <div className="animate-fade-up mx-auto mb-8 flex h-28 w-28 items-center justify-center rounded-full bg-primary/10 ring-1 ring-border sm:h-36 sm:w-36">
           <div className="relative h-28 w-28 sm:h-36 sm:w-36">
             <Image
-              src="/me.jpeg"
+              src="/my-portfolio/me.jpeg"
               alt="Ye Min Myat"
               fill
               className="rounded-full object-cover"
