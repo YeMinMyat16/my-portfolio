@@ -25,7 +25,7 @@ export function Hero() {
         <div className="animate-fade-up mx-auto mb-8 flex h-28 w-28 items-center justify-center rounded-full bg-primary/10 ring-1 ring-border sm:h-36 sm:w-36">
           <div className="relative h-28 w-28 sm:h-36 sm:w-36">
             <Image
-              src="/my-portfolio/me.jpeg"
+              src="/my-portfolio/me.jpeg?v=2"
               alt="Ye Min Myat"
               fill
               className="rounded-full object-cover"
