@@ -84,21 +84,33 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
           ))}
         </div>
 
-        {/* Code link */}
-        {project.githubUrl && (
-          <div className="mt-4">
+        {/* Links */}
+        <div className="mt-4 flex flex-wrap gap-2">
+          {project.githubUrl && (
             <Link
               href={project.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-3 py-1.5 text-xs font-semibold text-primary-foreground transition-all hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
               aria-label={`Open ${project.title} GitHub repository`}
             >
-              <Github className="h-4 w-4" />
+              <Github className="h-3.5 w-3.5" />
               Code
             </Link>
-          </div>
-        )}
+          )}
+          {project.liveUrl && (
+            <Link
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-secondary px-3 py-1.5 text-xs font-semibold text-secondary-foreground transition-all hover:bg-secondary/90 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+              aria-label={`Open ${project.title} live demo`}
+            >
+              <ExternalLink className="h-3.5 w-3.5" />
+              Live Demo
+            </Link>
+          )}
+        </div>
 
         {/* Footer */}
         <div className="mt-4 flex items-center justify-between border-t border-border/50 pt-4 text-xs text-muted-foreground">

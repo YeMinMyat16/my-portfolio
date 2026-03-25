@@ -49,6 +49,45 @@ const projects: Project[] = [
     status: "completed",
     githubUrl: "https://github.com/YeMinMyat16/smart-garden-esp32",
   },
+  {
+    id: "fitgen",
+    title: "FitGen - AI-Powered Wardrobe Stylist",
+    description:
+      "A modern wardrobe management application that uses AI to help you generate the perfect outfit from your closet. Designed with a sleek, emerald-accented UI, it features dynamic closet management and smart styling recommendations for the modern lifestyle.",
+    image:
+      "/my-portfolio/images/projects/fitgen.png",
+    tags: ["React", "Vite", "Tailwind CSS", "Framer Motion", "AI Stylist"],
+    year: "2026",
+    status: "completed",
+    githubUrl: "https://github.com/YeMinMyat16/FitGen",
+    liveUrl: "https://YeMinMyat16.github.io/FitGen/",
+  },
+  {
+    id: "dodge-survive",
+    title: "Dodge-Survive",
+    description:
+      "An adrenaline-pumping, fast-paced arcade game where you play as a bold character dodging a relentless swarm of enemies. Features a robust ability system including Dash, Shield, and Slow-Mo, with dynamic difficulty that scales as you survive longer.",
+    image:
+      "/my-portfolio/images/projects/dodge_survive.png",
+    tags: ["JavaScript", "HTML5 Canvas", "Game Development", "CSS Animations"],
+    year: "2026",
+    status: "completed",
+    githubUrl: "https://github.com/YeMinMyat16/Dodge-Survive",
+    liveUrl: "https://YeMinMyat16.github.io/Dodge-Survive/",
+  },
+  {
+    id: "movie-search",
+    title: "CineStream - Movie Search App",
+    description:
+      "A fast and responsive movie search application using the OMDb API. Users can discover movies and TV series, view detailed information, and instantly visit IMDB pages. Built with a modern cinematic theme and beautiful animations.",
+    image:
+      "/my-portfolio/images/projects/cinestream.png",
+    tags: ["React", "Vite", "Tailwind CSS", "OMDb API", "Framer Motion"],
+    year: "2026",
+    status: "completed",
+    githubUrl: "https://github.com/YeMinMyat16/movie-search-app",
+    liveUrl: "https://YeMinMyat16.github.io/movie-search-app/",
+  },
 ]
 
 export function Projects() {
